@@ -1,0 +1,339 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'i', 'request', '--save' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData request@^2.88.2
+8 silly fetchNamedPackageData request
+9 silly mapToRegistry name request
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/request
+13 verbose request uri https://registry.npmjs.org/request
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 12:02:38 PM
+16 verbose request id 5bcbcd574175ab6e
+17 verbose etag W/"f6a50554348a0710692c70f1bd6574ab"
+18 verbose lastModified Mon, 11 May 2020 15:19:07 GMT
+19 http request GET https://registry.npmjs.org/request
+20 http 304 https://registry.npmjs.org/request
+21 verbose headers { date: 'Fri, 29 May 2020 06:32:41 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'set-cookie':
+21 verbose headers    [ '__cfduid=dbdde53481444dae75483c6f3f70ac3991590733961; expires=Sun, 28-Jun-20 06:32:41 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+21 verbose headers   'cf-ray': '59ae2dfd7f77e2fe-CCU',
+21 verbose headers   age: '6591',
+21 verbose headers   'cache-control': 'public, max-age=300',
+21 verbose headers   etag: '"f6a50554348a0710692c70f1bd6574ab"',
+21 verbose headers   'last-modified': 'Mon, 11 May 2020 15:19:07 GMT',
+21 verbose headers   vary: 'Accept-Encoding',
+21 verbose headers   'cf-cache-status': 'HIT',
+21 verbose headers   'cf-request-id': '0300bb12690000e2fe680f7200000001',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   server: 'cloudflare' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Fri, 29 May 2020 06:32:41 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'set-cookie':
+22 silly get      [ '__cfduid=dbdde53481444dae75483c6f3f70ac3991590733961; expires=Sun, 28-Jun-20 06:32:41 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+22 silly get     'cf-ray': '59ae2dfd7f77e2fe-CCU',
+22 silly get     age: '6591',
+22 silly get     'cache-control': 'public, max-age=300',
+22 silly get     etag: '"f6a50554348a0710692c70f1bd6574ab"',
+22 silly get     'last-modified': 'Mon, 11 May 2020 15:19:07 GMT',
+22 silly get     vary: 'Accept-Encoding',
+22 silly get     'cf-cache-status': 'HIT',
+22 silly get     'cf-request-id': '0300bb12690000e2fe680f7200000001',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     server: 'cloudflare' } ]
+23 verbose etag https://registry.npmjs.org/request from cache
+24 verbose get saving request to /home/shabbar/.npm/registry.npmjs.org/request/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule request@2.88.2 checking installable status
+38 silly cache add args [ 'request@^2.88.2', null ]
+39 verbose cache add spec request@^2.88.2
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'request@^2.88.2',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'request',
+40 silly cache add   rawSpec: '^2.88.2',
+40 silly cache add   spec: '>=2.88.2 <3.0.0',
+40 silly cache add   type: 'range' }
+41 silly addNamed request@>=2.88.2 <3.0.0
+42 verbose addNamed ">=2.88.2 <3.0.0" is a valid semver range for request
+43 silly addNameRange { name: 'request', range: '>=2.88.2 <3.0.0', hasData: false }
+44 silly mapToRegistry name request
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/request
+48 verbose addNameRange registry:https://registry.npmjs.org/request not in flight; fetching
+49 verbose get https://registry.npmjs.org/request not expired, no request
+50 silly addNameRange number 2 { name: 'request', range: '>=2.88.2 <3.0.0', hasData: true }
+51 silly addNameRange versions [ 'request',
+51 silly addNameRange   [ '0.10.0',
+51 silly addNameRange     '0.8.3',
+51 silly addNameRange     '0.9.0',
+51 silly addNameRange     '0.9.1',
+51 silly addNameRange     '0.9.5',
+51 silly addNameRange     '1.0.0',
+51 silly addNameRange     '1.1.0',
+51 silly addNameRange     '1.1.1',
+51 silly addNameRange     '1.2.0',
+51 silly addNameRange     '1.9.0',
+51 silly addNameRange     '1.9.1',
+51 silly addNameRange     '1.9.2',
+51 silly addNameRange     '1.9.3',
+51 silly addNameRange     '1.9.5',
+51 silly addNameRange     '1.9.7',
+51 silly addNameRange     '1.9.8',
+51 silly addNameRange     '1.9.9',
+51 silly addNameRange     '2.0.0',
+51 silly addNameRange     '2.0.1',
+51 silly addNameRange     '2.0.2',
+51 silly addNameRange     '2.0.3',
+51 silly addNameRange     '2.0.4',
+51 silly addNameRange     '2.0.5',
+51 silly addNameRange     '2.1.0',
+51 silly addNameRange     '2.1.1',
+51 silly addNameRange     '2.2.0',
+51 silly addNameRange     '2.2.5',
+51 silly addNameRange     '2.2.6',
+51 silly addNameRange     '2.2.9',
+51 silly addNameRange     '2.9.0',
+51 silly addNameRange     '2.9.1',
+51 silly addNameRange     '2.9.2',
+51 silly addNameRange     '2.9.3',
+51 silly addNameRange     '2.9.100',
+51 silly addNameRange     '2.9.150',
+51 silly addNameRange     '2.9.151',
+51 silly addNameRange     '2.9.152',
+51 silly addNameRange     '2.9.153',
+51 silly addNameRange     '2.9.200',
+51 silly addNameRange     '2.9.201',
+51 silly addNameRange     '2.9.202',
+51 silly addNameRange     '2.9.203',
+51 silly addNameRange     '2.10.0',
+51 silly addNameRange     '2.11.0',
+51 silly addNameRange     '2.11.1',
+51 silly addNameRange     '2.11.2',
+51 silly addNameRange     '2.11.3',
+51 silly addNameRange     '2.11.4',
+51 silly addNameRange     '2.12.0',
+51 silly addNameRange     '2.14.0',
+51 silly addNameRange     '2.16.0',
+51 silly addNameRange     '2.16.2',
+51 silly addNameRange     '2.16.4',
+51 silly addNameRange     '2.16.6',
+51 silly addNameRange     '2.18.0',
+51 silly addNameRange     '2.19.0',
+51 silly addNameRange     '2.20.0',
+51 silly addNameRange     '2.21.0',
+51 silly addNameRange     '2.22.0',
+51 silly addNameRange     '2.23.0',
+51 silly addNameRange     '2.24.0',
+51 silly addNameRange     '2.25.0',
+51 silly addNameRange     '2.26.0',
+51 silly addNameRange     '2.27.0',
+51 silly addNameRange     '2.28.0',
+51 silly addNameRange     '2.29.0',
+51 silly addNameRange     '2.30.0',
+51 silly addNameRange     '2.31.0',
+51 silly addNameRange     '2.32.0',
+51 silly addNameRange     '2.33.0',
+51 silly addNameRange     '2.34.0',
+51 silly addNameRange     '2.35.0',
+51 silly addNameRange     '2.36.0',
+51 silly addNameRange     '2.37.0',
+51 silly addNameRange     '2.38.0',
+51 silly addNameRange     '2.39.0',
+51 silly addNameRange     '2.40.0',
+51 silly addNameRange     '2.41.0',
+51 silly addNameRange     '2.42.0',
+51 silly addNameRange     '2.43.0',
+51 silly addNameRange     '2.44.0',
+51 silly addNameRange     '2.45.0',
+51 silly addNameRange     '2.46.0',
+51 silly addNameRange     '2.47.0',
+51 silly addNameRange     '2.48.0',
+51 silly addNameRange     '2.49.0',
+51 silly addNameRange     '2.50.0',
+51 silly addNameRange     '2.51.0',
+51 silly addNameRange     '2.52.0',
+51 silly addNameRange     '2.53.0',
+51 silly addNameRange     '2.54.0',
+51 silly addNameRange     '2.55.0',
+51 silly addNameRange     '2.56.0',
+51 silly addNameRange     '2.57.0',
+51 silly addNameRange     '2.58.0',
+51 silly addNameRange     '2.59.0',
+51 silly addNameRange     '2.60.0',
+51 silly addNameRange     '2.61.0',
+51 silly addNameRange     '2.62.0',
+51 silly addNameRange     '2.63.0',
+51 silly addNameRange     ... 26 more items ] ]
+52 silly addNamed request@2.88.2
+53 verbose addNamed "2.88.2" is a plain semver version for request
+54 warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+55 silly cache afterAdd request@2.88.2
+56 verbose afterAdd /home/shabbar/.npm/request/2.88.2/package/package.json not in flight; writing
+57 verbose afterAdd /home/shabbar/.npm/request/2.88.2/package/package.json written
+58 silly fetchNamedPackageData aws-sign2
+59 silly mapToRegistry name aws-sign2
+60 silly mapToRegistry using default registry
+61 silly mapToRegistry registry https://registry.npmjs.org/
+62 silly mapToRegistry uri https://registry.npmjs.org/aws-sign2
+63 silly fetchNamedPackageData aws4
+64 silly mapToRegistry name aws4
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/aws4
+68 silly fetchNamedPackageData caseless
+69 silly mapToRegistry name caseless
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry https://registry.npmjs.org/
+72 silly mapToRegistry uri https://registry.npmjs.org/caseless
+73 silly fetchNamedPackageData combined-stream
+74 silly mapToRegistry name combined-stream
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry uri https://registry.npmjs.org/combined-stream
+78 silly fetchNamedPackageData extend
+79 silly mapToRegistry name extend
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry uri https://registry.npmjs.org/extend
+83 silly fetchNamedPackageData forever-agent
+84 silly mapToRegistry name forever-agent
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry https://registry.npmjs.org/
+87 silly mapToRegistry uri https://registry.npmjs.org/forever-agent
+88 silly fetchNamedPackageData form-data
+89 silly mapToRegistry name form-data
+90 silly mapToRegistry using default registry
+91 silly mapToRegistry registry https://registry.npmjs.org/
+92 silly mapToRegistry uri https://registry.npmjs.org/form-data
+93 silly fetchNamedPackageData har-validator
+94 silly mapToRegistry name har-validator
+95 silly mapToRegistry using default registry
+96 silly mapToRegistry registry https://registry.npmjs.org/
+97 silly mapToRegistry uri https://registry.npmjs.org/har-validator
+98 silly fetchNamedPackageData http-signature
+99 silly mapToRegistry name http-signature
+100 silly mapToRegistry using default registry
+101 silly mapToRegistry registry https://registry.npmjs.org/
+102 silly mapToRegistry uri https://registry.npmjs.org/http-signature
+103 silly fetchNamedPackageData is-typedarray
+104 silly mapToRegistry name is-typedarray
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry uri https://registry.npmjs.org/is-typedarray
+108 silly fetchNamedPackageData isstream
+109 silly mapToRegistry name isstream
+110 silly mapToRegistry using default registry
+111 silly mapToRegistry registry https://registry.npmjs.org/
+112 silly mapToRegistry uri https://registry.npmjs.org/isstream
+113 silly fetchNamedPackageData json-stringify-safe
+114 silly mapToRegistry name json-stringify-safe
+115 silly mapToRegistry using default registry
+116 silly mapToRegistry registry https://registry.npmjs.org/
+117 silly mapToRegistry uri https://registry.npmjs.org/json-stringify-safe
+118 silly fetchNamedPackageData mime-types
+119 silly mapToRegistry name mime-types
+120 silly mapToRegistry using default registry
+121 silly mapToRegistry registry https://registry.npmjs.org/
+122 silly mapToRegistry uri https://registry.npmjs.org/mime-types
+123 silly fetchNamedPackageData oauth-sign
+124 silly mapToRegistry name oauth-sign
+125 silly mapToRegistry using default registry
+126 silly mapToRegistry registry https://registry.npmjs.org/
+127 silly mapToRegistry uri https://registry.npmjs.org/oauth-sign
+128 silly fetchNamedPackageData performance-now
+129 silly mapToRegistry name performance-now
+130 silly mapToRegistry using default registry
+131 silly mapToRegistry registry https://registry.npmjs.org/
+132 silly mapToRegistry uri https://registry.npmjs.org/performance-now
+133 silly fetchNamedPackageData qs
+134 silly mapToRegistry name qs
+135 silly mapToRegistry using default registry
+136 silly mapToRegistry registry https://registry.npmjs.org/
+137 silly mapToRegistry uri https://registry.npmjs.org/qs
+138 silly fetchNamedPackageData tunnel-agent
+139 silly mapToRegistry name tunnel-agent
+140 silly mapToRegistry using default registry
+141 silly mapToRegistry registry https://registry.npmjs.org/
+142 silly mapToRegistry uri https://registry.npmjs.org/tunnel-agent
+143 silly fetchNamedPackageData uuid
+144 silly mapToRegistry name uuid
+145 silly mapToRegistry using default registry
+146 silly mapToRegistry registry https://registry.npmjs.org/
+147 silly mapToRegistry uri https://registry.npmjs.org/uuid
+148 verbose request uri https://registry.npmjs.org/aws4
+149 verbose request no auth needed
+150 info attempt registry request try #1 at 12:03:28 PM
+151 verbose etag W/"8c9c22e27d609a084497dc309be7c755"
+152 verbose lastModified Fri, 22 May 2020 21:21:37 GMT
+153 http request GET https://registry.npmjs.org/aws4
+154 verbose request uri https://registry.npmjs.org/combined-stream
+155 verbose request no auth needed
+156 info attempt registry request try #1 at 12:03:28 PM
+157 verbose etag W/"01d038e7b9fcfd5e5654a7d7003bfe74"
+158 verbose lastModified Sun, 12 May 2019 17:49:50 GMT
+159 http request GET https://registry.npmjs.org/combined-stream
+160 verbose request uri https://registry.npmjs.org/forever-agent
+161 verbose request no auth needed
+162 info attempt registry request try #1 at 12:03:28 PM
+163 verbose etag W/"9e6ef96089dd23304c2ea7d2fb731c9c"
+164 verbose lastModified Sun, 27 May 2018 01:06:13 GMT
+165 http request GET https://registry.npmjs.org/forever-agent
+166 verbose request uri https://registry.npmjs.org/extend
+167 verbose request no auth needed
+168 info attempt registry request try #1 at 12:03:28 PM
+169 verbose etag W/"924fa39abddd399eb964b1aa611da651"
+170 verbose lastModified Thu, 19 Jul 2018 22:12:47 GMT
+171 http request GET https://registry.npmjs.org/extend
+172 verbose request uri https://registry.npmjs.org/aws-sign2
+173 verbose request no auth needed
+174 info attempt registry request try #1 at 12:03:28 PM
+175 verbose etag W/"7bf763d2cccd0806178c5c3e43895950"
+176 verbose lastModified Sat, 26 May 2018 17:48:52 GMT
+177 http request GET https://registry.npmjs.org/aws-sign2
+178 verbose request uri https://registry.npmjs.org/http-signature
+179 verbose request no auth needed
+180 info attempt registry request try #1 at 12:03:28 PM
+181 verbose etag W/"3b46cb4c3a2db9af415ea171ef07cebe"
+182 verbose lastModified Wed, 06 May 2020 14:47:40 GMT
+183 http request GET https://registry.npmjs.org/http-signature
+184 verbose request uri https://registry.npmjs.org/is-typedarray
+185 verbose request no auth needed
+186 info attempt registry request try #1 at 12:03:28 PM
+187 verbose etag W/"e7b88219ebe721b877b678c51795c9c5"
+188 verbose lastModified Sun, 27 May 2018 04:59:55 GMT
+189 http request GET https://registry.npmjs.org/is-typedarray
+190 verbose stack Error: write EIO
+190 verbose stack     at _errnoException (util.js:1022:11)
+190 verbose stack     at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
+191 verbose cwd /mnt/c/Users/shabb/Desktop/web learning/webScrapper
+192 error Linux 4.4.0-18362-Microsoft
+193 error argv "/usr/bin/node" "/usr/bin/npm" "i" "request" "--save"
+194 error node v8.10.0
+195 error npm  v3.5.2
+196 error code EIO
+197 error errno EIO
+198 error syscall write
+199 error write EIO
+200 error If you need help, you may report this error at:
+200 error     <https://github.com/npm/npm/issues>
+201 verbose exit [ 1, true ]
